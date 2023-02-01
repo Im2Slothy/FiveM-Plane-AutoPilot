@@ -1,9 +1,14 @@
-resource_manifest_version '05cfa83c-a124-4cfa-a768-c24a5811d8f9'
+--FiveM Plane Plane Auto Pilot script
+-- Version 1.0
 
-client_scripts {
-  'client.lua'
-}
+version '1.0.0'
+author 'Slothy#4484'
+description 'Fly planes in autopilot!'
+repository 'https://github.com/Im2Slothy/FiveM-Plane-AutoPilot'
 
-server_scripts {
-  'server.lua'
-}
+-- compatibility wrapper
+fx_version 'adamant'
+game 'common'
+
+-- Add a client script 
+client_script "client.lua"
